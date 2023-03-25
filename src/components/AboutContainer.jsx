@@ -3,13 +3,10 @@ const AboutContainer = () => {
     <section className="about-container">
         <h2>Sobre Mim</h2>
         <p>
-        Sou um apaixonado por tecnologia e desenvolvimento web, buscando sempre aprender algo novo nesta jornada fantástica de conhecimentos e desafios que a tecnologia nos proporciona.
+        Sou um apaixonado por tecnologia e desenvolvimento web, em busca de sempre estar aprendendo algo novo e melhorando meu conhecimento e habilidades neste vasto universo de informações e novidades, que a tecnologia oferece. Atualmente foco meus esforços para a área de desenvolvimento web e trabalhando na minha transição de carreira para TI, venho do setor de manutenção industrial (elétrica e automação) onde possuo 12 anos de experiência em em empresas multinacionais.
         </p>
         <p>
-        Possuo 12 anos atuando na área de Automação Industrial em grandes empresas multinacionais, tenho facilidade de adaptação em diversos ambientes, boa comunicação e facilidade de aprendizado.
-        </p>
-        <p>
-        Atualmente foco meus esforços para a área de desenvolvimento web, onde estou cursando graduação em ciência da computação e fazendo cursos voltados para a área de Front-end, Designer UX/UI e Back-end.
+          Estou cursando graduação em ciência da computação e em paralelo cursos voltados para a área de Front-end, Designer UX/UI e Back-end, com intuito de complementar meus estudos.
         </p>
     </section>
   )
