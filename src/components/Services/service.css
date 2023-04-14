@@ -1,0 +1,38 @@
+.services {
+    background-image: var(--second-gradient);
+}
+
+.services__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.services__item {
+    max-width: 320px;
+    padding: 2rem;
+    transition: all .5s ease-in;
+    border: 1px solid var(--container-color);
+}
+
+.services__item:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.services__subtitle {
+    color: var(--title-color);
+    font-size: var(--tiny-font-size);
+    font-weight: 700;
+    margin-bottom: 4rem;
+    display: block;
+}
+
+.services__title {
+    font-size: var(--h4-font-size);
+    margin-bottom: 1rem;
+}
+
+.services__description {
+    min-height: 110px;
+}

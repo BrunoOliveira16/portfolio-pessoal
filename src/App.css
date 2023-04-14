@@ -40,7 +40,7 @@
     --second-font: 'Caveat', cursive;
 
     /* ...8px = .5rem e 16px = 1rem...*/
-    --biggest-font-size: 5.625rem;
+    --biggest-font-size: 5rem;
     --h1-font-size: 2.75rem;
     --h2-font-size: 1.875rem;
     --h3-font-size: 1.75rem;
@@ -115,3 +115,117 @@
  img {
     max-width: 100%;
  }
+
+/* ================================================= */
+/*           CLASSES CSS REUTILIZÁVEIS               */
+/* ================================================= */
+
+.container {
+    max-width: 1440px;
+    padding-inline: .75rem;
+    margin-inline: auto;
+}
+
+.text-cs {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.btn,
+.hero__link {
+    color: var(--title-color);
+    font-size: var(--tiny-font-size);
+    font-weight: 700;
+    height: 3.5rem;
+    display: grid;
+    place-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.btn {
+    border: 2px solid var(--border-color);
+    padding-inline: 2.5rem;
+    border-radius: 3.5rem;
+    box-shadow: var(--shadow);
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background-color: var(--primary-color);
+    border-radius: inherit;
+    transform: scale(0.3);
+    filter: blur(10px);
+    opacity: 0;
+    transition: all 0.7s var(--transition);
+    z-index: -1;
+}
+
+.btn:hover::before {
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+}
+
+.shape {
+    position: absolute;
+    filter: invert(1);
+    opacity: 0.3;
+}
+
+.section {
+    padding-bottom: 220px;
+}
+
+.section__title,
+.section__subtitle {
+    text-align: center;
+}
+
+.section__title {
+    font-size: var(--h1-font-size);
+}
+
+.section__subtitle {
+    color: var(--primary-color);
+    font-size: var(--smaller-font-size);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 3.75rem;
+}
+
+.section__subtitle span {
+    font-family: var(--second-font);
+    color: var(--title-color);
+    font-size: var(--h3-font-size);
+    text-transform: capitalize;
+    margin-left: .625rem;
+}
+
+.card {
+    background-color: var(--container-color);
+}
+
+.card-one {
+    padding: 1.9rem 2.2rem;
+    border-radius: 1.125rem;
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.link__icon {
+    color: var(--primary-color);
+    margin-left: 1.25rem;
+    transition: all 0.3s var(--transition);
+}
+
+.link:hover .link__icon {
+    margin-left: 1rem;
+}
