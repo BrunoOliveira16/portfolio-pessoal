@@ -1,15 +1,13 @@
-import Sidebar from './components/Sidebar';
-import MainContent from './components/MainContent';
+import React from 'react';
+import './App.css';
 
-import './styles/components/app.sass';
+import { Home } from './components/Home/Home';
 
 function App() {
   return (
-    <div id="portfolio">
-      <h1>Bruno Oliveira</h1>
-      <Sidebar />
-      <MainContent />
-    </div>
+    <main className='main'>
+      <Home />
+    </main>
   );
 };
 
