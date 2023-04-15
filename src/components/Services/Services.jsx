@@ -11,9 +11,9 @@ const Services = () => {
       </p>
 
       <div className="services__container container">
-        {services.map(({name, title, description}, index) => {
+        {services.map(({ name, title, description, id }, index) => {
           return(
-            <div className="services__item card card-one">
+            <div className="services__item card card-one" key={id}>
               <span className="services__subtitle text-cs">{name}</span>
 
               <h3 className="services__title">{title}</h3>

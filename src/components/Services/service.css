@@ -21,7 +21,7 @@
 }
 
 .services__subtitle {
-    color: var(--title-color);
+    color: var(--primary-color);
     font-size: var(--tiny-font-size);
     font-weight: 700;
     margin-bottom: 4rem;

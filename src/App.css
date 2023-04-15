@@ -19,6 +19,14 @@
     --bg-color-alt: hsl(213, 10%, 21%);
     --container-color: hsl(217, 18%, 14%);
     --border-color: hsl(210, 2%, 65%);
+    --js-color-icon: #F0DB4F;
+    --ts-color-icon: #719AF4;
+    --react-color-icon: #61DAFB;
+    --angular-color-icon: #B52E31;
+    --bootstrap-color-icon: #563D7C;
+    --styled-color-icon: #B37399;
+    --jquery-color-icon: #2962FF;
+    --node-color-icon: #83CD29;
     --first-gradient: linear-gradient(
         0deg,
         var(--bg-color-alt) 0%,
@@ -126,6 +134,11 @@
     margin-inline: auto;
 }
 
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
 .text-cs {
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -169,6 +182,17 @@
     opacity: 1;
 }
 
+.btn-icon {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    font-size: var(--smaller-font-size)
+}
+
+.btn-icon svg {
+    font-size: var(--larger-font-size);
+}
+
 .shape {
     position: absolute;
     filter: invert(1);
@@ -206,11 +230,18 @@
 
 .card {
     background-color: var(--container-color);
+    overflow: hidden;
+    text-align: left;
 }
 
 .card-one {
     padding: 1.9rem 2.2rem;
     border-radius: 1.125rem;
+}
+
+.card-two {
+    padding: 1.9rem;
+    border-radius: 1.25rem;
 }
 
 .link {

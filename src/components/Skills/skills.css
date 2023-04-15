@@ -1,0 +1,38 @@
+.skills {
+    background-image: var(--third-gradient);
+}
+
+.skills__container {
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 4.4rem;
+    padding: 2rem 0;
+}
+
+.skills__name {
+    font-size: var(--largest-font-size);
+    text-align: center;
+}
+
+.skills__image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.skills__image svg {
+    height: 60px;
+    width: 60px;
+}
+
+
+/* ===== Cores das tecnologias ===== */
+#js { color: var(--js-color-icon); }
+#ts { color: var(--ts-color-icon); }
+#react { color: var(--react-color-icon); }
+#angular { color: var(--angular-color-icon); }
+#bootstrap { color: var(--bootstrap-color-icon); }
+#styled { color: var(--styled-color-icon); }
+#jquery { color: var(--jquery-color-icon); }
+#node { color: var(--node-color-icon); }
