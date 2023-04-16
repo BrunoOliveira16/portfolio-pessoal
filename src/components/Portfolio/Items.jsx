@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineFundProjectionScreen, AiOutlineGithub } from 'react-icons/ai';
+import { motion } from 'framer-motion';
 
 const Items = ({ projectItems }) => {
   return (
@@ -8,7 +9,15 @@ const Items = ({ projectItems }) => {
           const { id, img, category, title, description } = projectItem;
           
           return(
-            <div className="portfolio__items card card-two" key={id}>
+            <motion.div 
+              layout 
+              animate={{ opacity: 1, scale: 1 }} 
+              initial={{ opacity: 0.8, scale: 0.6 }} 
+              exit={{ opacity: 0.8, scale: 0.6 }}
+              transition={{duration: 0.7}}
+              className="portfolio__items card card-two" 
+              key={id}
+            >
               <div className="portfolio__img--wrapper">
                 <img src={img} alt={title} className="portfolio__img" />
               </div>
@@ -27,7 +36,7 @@ const Items = ({ projectItems }) => {
                    Live Demo
                 </a>
               </div>
-            </div>
+            </motion.div>
           )
       })}
     </>

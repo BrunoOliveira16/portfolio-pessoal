@@ -1,3 +1,43 @@
+.portfolio {
+    background-image: var(--first-gradient);
+}
+
+.portfolio__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+    margin-bottom: 3.75rem;
+}
+
+.portfolio__list--item {
+    color: var(--title-color);
+    font-size: var(--tiny-font-size);
+    font-weight: 700;
+    position: relative;
+    transition: all 0.7s var(--transition);
+}
+
+.portfolio__list--item::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    max-width: 60%;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: -.75rem;
+    left: 0;
+    transition: all 0.3s var(--transition);
+}
+
+.active-work {
+    color: var(--primary-color);
+}
+
+.active-work::before,
+.portfolio__list--item:hover::before {
+    width: 2.5rem;
+}
+
 .portfolio__container {
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;

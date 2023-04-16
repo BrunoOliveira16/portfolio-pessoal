@@ -13,7 +13,7 @@ const Skills = () => {
       <div className="skills__container container grid">
         {skills.map(({ name, image }, index) => {
           return (
-            <div className="skills__item">
+            <div className="skills__item" key={index}>
               <div className="skills__image">
                 {image}
               </div>

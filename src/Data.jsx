@@ -71,7 +71,7 @@ export const projects = [
     {
         id: 1,
         img: Project1,
-        category: 'Desenvolvimento',
+        category: 'React',
         title: 'Projeto 01',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.'
@@ -79,7 +79,7 @@ export const projects = [
     {
         id: 2,
         img: Project2,
-        category: 'Desenvolvimento',
+        category: 'React',
         title: 'Projeto 02',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.'
@@ -87,7 +87,7 @@ export const projects = [
     {
         id: 3,
         img: Project3,
-        category: 'Desenvolvimento',
+        category: 'Angular',
         title: 'Projeto 03',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.'
@@ -95,7 +95,7 @@ export const projects = [
     {
         id: 4,
         img: Project4,
-        category: 'Desenvolvimento',
+        category: 'JavaScript',
         title: 'Projeto 04',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.'
