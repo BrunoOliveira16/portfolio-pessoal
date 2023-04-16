@@ -102,3 +102,60 @@ export const projects = [
     }
 ]
 
+export const cv = [
+    {
+        id: 1,
+        title: 'Bacharel em Ciência da Computação',
+        subtitle: 'Faculdade Descomplica',
+        date: '2022 - 2026',
+        description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        category: 'educacao',
+    },
+    {
+        id: 2,
+        title: 'Desenvolvimento Full-Stack Python',
+        subtitle: 'EBAC',
+        date: '2022 - 2023',
+        description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        category: 'educacao',
+    },
+    {
+        id: 3,
+        title: 'Desenvolvedor Front-End',
+        subtitle: 'Freelance',
+        date: '2022 - Até o Momento',
+        description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        category: 'experiencia',
+    },
+    {
+        id: 4,
+        title: 'Analista de Manutenção',
+        subtitle: 'Ternium Brasil',
+        date: '2017 - 2023',
+        description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        category: 'experiencia',
+    },
+    {
+        id: 5,
+        title: 'Engenharia de Produção',
+        subtitle: 'Universidade Cândido Mendes',
+        date: '2013 - 2018',
+        description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        category: 'educacao',
+    },
+    {
+        id: 6,
+        title: 'Técnico de Manutenção Elétrica',
+        subtitle: 'ThyssenKrupp CSA',
+        date: '2010 - 2017',
+        description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        category: 'experiencia',
+    },
+]
+

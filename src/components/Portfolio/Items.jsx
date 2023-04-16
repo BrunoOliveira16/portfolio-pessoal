@@ -14,7 +14,7 @@ const Items = ({ projectItems }) => {
               animate={{ opacity: 1, scale: 1 }} 
               initial={{ opacity: 0.8, scale: 0.6 }} 
               exit={{ opacity: 0.8, scale: 0.6 }}
-              transition={{duration: 0.7}}
+              transition={{duration: 1}}
               className="portfolio__items card card-two" 
               key={id}
             >
