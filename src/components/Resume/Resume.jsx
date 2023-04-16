@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './resume.css';
 import { cv } from '../../Data';
 import Card from './Card';
 
 const Resume = () => {
+
   return (
     <section className="resume section" id="resume">
         <h2 className="section__title text-cs">Resumo</h2>
