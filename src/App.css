@@ -70,6 +70,27 @@
 }
 
  /* ================================================= */
+ /*                  LIGHT THEME                      */
+ /* ================================================= */
+
+.light-theme {
+    /* ================== Cores ================== */
+    --title-color: #000;
+    --text-color: #262626;
+    --bg-color: #afaead;
+    --bg-color-alt: #fff;
+    --container-color: #fff;
+    --border-color: #000;
+
+    /* ================== Sombreamento ================== */
+    --shadow: 5px 5px rgb(0 0 0 /20%);
+}
+
+.light-theme .home__title {
+    color: #fff;
+}
+
+ /* ================================================= */
  /*                    RESET CSS                      */
  /* ================================================= */
 
@@ -89,6 +110,10 @@
  body {
     color: var(--text-color);
     background-color: var(--bg-color);
+ }
+
+ body.no-scroll {
+    overflow: hidden;
  }
 
  h1, h2, h3 {

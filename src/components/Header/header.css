@@ -1,0 +1,143 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 1.9rem;
+    z-index: 100;
+}
+
+.scroll-header {
+    position: fixed;
+    background-color: var(--bg-color-alt);
+    animation: header_animate 0.8s var(--transition) 0s forwards;
+}
+
+@keyframes header_animate {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    color: var(--title-color);
+    font-size: var(--h5-font-size);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav__menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    display: flex;
+    background-color: var(--bg-color-alt);
+    transition: all 1s var(--transition);
+    z-index: 10;
+}
+
+.show__menu {
+    width: 512px;
+}
+
+.nav__data {
+    padding: 5rem 5.25rem 0 9.625rem;
+    margin: auto;
+    width: 100%;
+}
+
+.nav__list {
+    margin-bottom: 2.5rem;
+}
+
+.nav__list li {
+    margin-bottom: 1.25rem;
+}
+
+.nav__link {
+    color: var(--title-color);
+    font-size: var(--h5-font-size);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s var(--transition);
+}
+
+.active,
+.nav__link:hover {
+    color: var(--primary-color);
+}
+
+.header__socials {
+    display: flex;
+    column-gap: 1.25rem;
+    margin-bottom: 1.875rem;
+}
+
+.header__social-link {
+    color: var(--title-color);
+    font-size: var(--h3-font-size);
+    transition: all 0.7s var(--transition);
+}
+
+.header__social-link:hover {
+    color: var(--primary-color);
+}
+
+.nav__btns {
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+
+.theme__toggle {
+    font-size: var(--h4-font-size);
+    display: flex;
+    align-items: center;
+}
+
+.nav__toggle {
+    height: 1.9rem;
+    width: 1.75rem;
+    position: relative;
+    z-index: 100;
+}
+
+.theme__toggle,
+.nav__toggle {
+    cursor: pointer;
+}
+
+.nav__toggle span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--title-color);
+    transition: all .5s var(--transition);
+}
+
+.nav__toggle span:first-child {
+    top: .5rem
+}
+.nav__toggle span:last-child {
+    bottom: .5rem
+}
+
+.animate__toggle span:first-child {
+    transform: rotate(-45deg);
+    top: .875rem;
+}
+
+.animate__toggle span:last-child {
+    transform: rotate(45deg);
+    bottom: .875rem;
+}

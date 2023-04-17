@@ -8,6 +8,32 @@ import Project2 from './assets/imagem-01.jpg';
 import Project3 from './assets/imagem-01.jpg';
 import Project4 from './assets/imagem-01.jpg';
 
+export const links = [
+    {
+        name: 'Home',
+        path: 'home',
+    },
+    {
+        name: 'Services',
+        path: 'services',
+    },
+    {
+        name: 'Skills',
+        path: 'skills',
+    },
+    {
+        name: 'Portfolio',
+        path: 'portfolio',
+    },
+    {
+        name: 'Resume',
+        path: 'resume',
+    },
+    {
+        name: 'Contact',
+        path: 'contact',
+    },
+]
 
 export const services = [
     {
