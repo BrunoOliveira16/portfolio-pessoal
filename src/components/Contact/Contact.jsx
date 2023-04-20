@@ -65,7 +65,7 @@ const Contact = () => {
                             </span>
 
                             <h3 className="contact__card--title">Freelance</h3>
-                            <p className="contact__card--data">Disponível Agora</p>
+                            <p className="contact__card--data">Disponível</p>
                         </div>
 
                         <div className="contact__card">
@@ -74,7 +74,7 @@ const Contact = () => {
                             </span>
 
                             <h3 className="contact__card--title">Email</h3>
-                            <p className="contact__card--data">bruno@gmail.com</p>
+                            <p className="contact__card--data">bruno1_oliveira@hotmail.com</p>
                         </div>
 
                         <div className="contact__card">
@@ -83,7 +83,7 @@ const Contact = () => {
                             </span>
 
                             <h3 className="contact__card--title">Telefone</h3>
-                            <p className="contact__card--data">(21) 9999-9999</p>
+                            <p className="contact__card--data">(21) 98672-7034</p>
                         </div>
                     </div>
 
