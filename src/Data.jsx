@@ -135,7 +135,7 @@ export const cv = [
         subtitle: 'Faculdade Descomplica',
         date: '2022 - 2026',
         description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        'Ingressei na faculdade em setembro de 2022, com o objetivo de se especializar ainda mais na área de TI em uma faculdade com foco em desenvolvimento full-stack, desde então tive experiêcia com Java, JavaScript, lógica de programação e algoritimos, analise e requistos de software e banco de dados.',
         category: 'educacao',
     },
     {
@@ -144,7 +144,7 @@ export const cv = [
         subtitle: 'EBAC',
         date: '2022 - 2023',
         description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        'Iniciei meus estudos em junho de 2022 neste curso que é focado na linguagem Python para o back-end, finalizei o front-end onde apliquei conhecimentos com javascript, react, bootstrap, jquery, sass e material UI na construção de alguns projetos e no momento venho estudando o back-end com o python.',
         category: 'educacao',
     },
     {
@@ -153,7 +153,7 @@ export const cv = [
         subtitle: 'Freelance',
         date: '2022 - Até o Momento',
         description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        'Apesar de ter tido algumas experiências com tecnologia anteriores, iniciei de fato meus estudos e transição de carreira em junho de 2022, onde desde então venho realizando alguns projetos front-end com tecnologias como react.',
         category: 'experiencia',
     },
     {
@@ -162,7 +162,7 @@ export const cv = [
         subtitle: 'Ternium Brasil',
         date: '2017 - 2023',
         description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        'Fui promovido a técnico III como responsável da manutenção do setor de lingotamento continuo, e após fui promovido a analista de manutenção e participei de projetos com foco na analise de dados, para identificação de perfis de perda de manutenção e captura de ganhos em disponibilidade e redução de custos.',
         category: 'experiencia',
     },
     {
@@ -171,7 +171,7 @@ export const cv = [
         subtitle: 'Universidade Cândido Mendes',
         date: '2013 - 2018',
         description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        'Cursei no período descrito o curso de engenharia no campus de santa cruz e como projeto final apresentei um estudo de caso da aplicação da ferramenta 8D na analise e resolução de problemas de manutenção em equipamentos.',
         category: 'educacao',
     },
     {
@@ -180,7 +180,7 @@ export const cv = [
         subtitle: 'ThyssenKrupp CSA',
         date: '2010 - 2017',
         description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.',
+        'Iniciei como auxiliar e fui promovido até o nível de técnico II como inspetor, fui responsável pela manutenção de equipamentos de um setor inteiro, atuei resolvendo problemas elétricos e de automação de equipamentos siemens como PLC, inversores e motores elétricos.',
         category: 'experiencia',
     },
 ]
