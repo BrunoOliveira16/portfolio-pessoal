@@ -93,6 +93,8 @@ const Header = () => {
                             </a>
                         </div>
                     </div>
+
+                    <div className="section__deco deco__left header__deco"></div>
                 </div>
 
                 <div className="nav__btns">

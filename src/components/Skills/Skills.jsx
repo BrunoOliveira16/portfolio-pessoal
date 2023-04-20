@@ -22,6 +22,8 @@ const Skills = () => {
           )
         })}
       </div>
+
+      <div className="section__deco deco__left"></div>
     </section>
   );
 };

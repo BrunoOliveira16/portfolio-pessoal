@@ -44,11 +44,11 @@ const Contact = () => {
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title text-cs">Contato</h2>
-                <p className="section__subtitle">
-                    Venha <span>Falar comigo</span>
-                </p>
+            <p className="section__subtitle">
+                Venha <span>Falar comigo</span>
+            </p>
 
-                <div className="contact__container container grid">
+            <div className="contact__container container grid">
                     <div className="contact__content">
                         <div className="contact__card">
                             <span className="contact__card--icon">
@@ -140,7 +140,9 @@ const Contact = () => {
                             </button>
                         </div>                  
                     </form>
-                </div>
+            </div>
+
+            <div className="section__deco deco__left"></div>
         </section>
     );
 };

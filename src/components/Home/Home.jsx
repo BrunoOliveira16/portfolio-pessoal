@@ -5,6 +5,7 @@ import shapetwo from '../../assets/icon-js.png';
 import shapethree from '../../assets/icon-node.png';
 
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+/*import CV from '../../assets'*/
 
 const Home = () => {
   return (
@@ -68,10 +69,13 @@ const Home = () => {
                 </div>
 
                 <div className="home__btns">
+                    {/*<a download="" href={CV} className="btn text-cs">Dowload CV</a>*/}
                     <a href="" className="btn text-cs">Dowload CV</a>
-                    <a href="" className="hero__link text-cs">Minhas Skills</a>
+                    <a href="#skills" className="hero__link text-cs">Minhas Skills</a>
                 </div>
             </div>
+
+            <div className="section__deco deco__left"></div>
         </div>
     </section>
   );

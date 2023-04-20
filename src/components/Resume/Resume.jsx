@@ -53,6 +53,8 @@ const Resume = () => {
                 </div>
             </div>
         </div>
+
+        <div className="section__deco deco__left"></div>
     </section>
   );
 };

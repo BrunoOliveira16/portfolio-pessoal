@@ -41,6 +41,8 @@ const Portfolio = () => {
                     <Items projectItems={ projectItems } />
                 </AnimatePresence>
             </div>
+
+            <div className="section__deco deco__right"></div>
         </section>
     );
 };

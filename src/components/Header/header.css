@@ -141,3 +141,7 @@
     transform: rotate(45deg);
     bottom: .875rem;
 }
+
+.header__deco {
+    left: 75px;
+}
