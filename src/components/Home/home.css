@@ -88,11 +88,11 @@
 
 .home__img-wrapper {
     position: absolute;
-    top: 0;
-    right: 12px;
+    top: 25%;
+    right: 0;
     transform: translateY(-10%);
     width: 100%;
-    max-width: 680px;
+    max-width: 550px;
 }
 
 .home__banner {
@@ -106,7 +106,8 @@
 .home__profile {
     position: absolute;
     bottom: 0;
-    height: 800px;
+    right: 9px;
+    height: 735px;
     border-radius: 500px;
     object-fit: cover;
 }
@@ -163,10 +164,10 @@
 }
 
 .shape__1 {
-    width: 226px;
-    height: 226px;
-    top: -8%;
-    right: 6%;
+    width: 10rem;
+    height: 10rem;
+    top: -18%;
+    right: 0;
 }
 
 .shape__2,

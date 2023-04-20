@@ -72,7 +72,7 @@
 
 .portfolio__category,
 .portfolio__description {
-    margin-top: 1.9rem;
+    margin-block: 1rem;
 }
 
 .portfolio__title {
@@ -81,6 +81,7 @@
 
 .portfolio__description {
     min-height: 125px;
+    font-size: var(--normal-font-size);
 }
 
 .portfolio__link--wrapper {

@@ -13,11 +13,11 @@
     max-width: 320px;
     padding: 2rem;
     transition: all .5s ease-in;
-    border: 1px solid var(--container-color);
+    border: 2px solid var(--container-color);
 }
 
 .services__item:hover {
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
 .services__subtitle {

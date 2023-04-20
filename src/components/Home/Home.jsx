@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import profile from '../../assets/profile-img.png'
 import shapeOne from '../../assets/icon-react.png';
 import shapetwo from '../../assets/icon-js.png';
 import shapethree from '../../assets/icon-node.png';
@@ -24,10 +25,10 @@ const Home = () => {
 
                 <div className="home__img-wrapper">
                     <div className="home__banner">
-                        <img src="" alt="" className="home__profile" />
+                        <img src={profile} alt="Minha imagem de perfil" className="home__profile" />
                     </div>
 
-                    <p className="home__data home__data-one">
+                    {/*<p className="home__data home__data-one">
                         <span className="text-lg">
                             12 <b>+</b>
                         </span>
@@ -43,7 +44,7 @@ const Home = () => {
                         <span className="text-sm text-cs">
                             Completed <span>Projects</span>
                         </span>
-                    </p>
+                    </p>*/}
 
                     <img src={shapeOne} alt="" className="shape shape__1"/>
                     <img src={shapetwo} alt="" className="shape shape__2"/>

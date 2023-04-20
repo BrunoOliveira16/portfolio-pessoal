@@ -5,8 +5,20 @@
 .skills__container {
     width: 80%;
     grid-template-columns: repeat(4, 1fr);
-    row-gap: 4.4rem;
+    row-gap: 2rem;
     padding: 2rem 0;
+}
+
+.skills__item {
+    padding-block: 1.5rem;
+    background-color: var(--container-color);
+    border: 2px solid var(--bg-color-alt);
+    border-radius: .5rem;
+    transition: all .5s ease-in;
+}
+
+.skills__item:hover {
+    border: 2px solid var(--primary-color);
 }
 
 .skills__name {

@@ -110,6 +110,8 @@
  body {
     color: var(--text-color);
     background-color: var(--bg-color);
+    min-width: 360px;
+    margin: auto;
  }
 
  body.no-scroll {
@@ -158,8 +160,8 @@
 }
 
 .container {
-    max-width: 1440px;
-    padding-inline: .75rem;
+    max-width: 1250px;
+    padding-inline: 2.75rem;
     margin-inline: auto;
 }
 
@@ -187,7 +189,7 @@
 
 .btn {
     border: 2px solid var(--border-color);
-    padding-inline: 2.5rem;
+    padding-inline: 1.5rem;
     border-radius: 3.5rem;
     box-shadow: var(--shadow);
 }
@@ -270,7 +272,7 @@
 }
 
 .card-two {
-    padding: 1.9rem;
+    padding: 1rem;
     border-radius: 1.25rem;
 }
 

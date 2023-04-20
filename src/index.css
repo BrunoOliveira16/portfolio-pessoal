@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1300px) {
     .section__deco:not(.header__deco){
         display: none;
     }
@@ -14,12 +14,17 @@
 
     .home__profile {
         height: auto;
+        right: 0;
     }
 
     .home__data {
         transform: scale(0.9);
     }
 
+    .shape__3 {
+        bottom: -9%;
+        right: -10%;
+    }
 
 }
 
