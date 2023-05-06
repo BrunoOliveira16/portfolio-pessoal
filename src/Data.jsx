@@ -1,6 +1,12 @@
 /* ======= Icones Tecnologias =======*/
 import { SiJavascript, SiTypescript, SiReact, SiAngular, SiBootstrap, SiStyledcomponents, SiNodedotjs, SiJquery } from 'react-icons/si';
 
+/*======== Import das imagens =======*/
+import imagem01 from '/public/space-tourism.jpg'
+import imagem02 from '/public/hbo-clone.jpg'
+import imagem03 from '/public/poke-api.jpg'
+import imagem04 from '/public/calculadora-react.jpg'
+
 export const links = [
     {
         name: 'Home',
@@ -89,7 +95,7 @@ export const skills = [
 export const projects = [
     {
         id: 1,
-        img: '/public/space-tourism.jpg',
+        img: imagem01,
         category: 'React',
         title: 'SPA Turismo Espacial',
         description:
@@ -99,7 +105,7 @@ export const projects = [
     },
     {
         id: 2,
-        img: '/public/hbo-clone.jpg',
+        img: imagem02,
         category: 'HTML/CSS',
         title: 'Clone HBO Max',
         description:
@@ -109,7 +115,7 @@ export const projects = [
     },
     {
         id: 3,
-        img: '/public/poke-api.jpg',
+        img: imagem03,
         category: 'JavaScript',
         title: 'Pokedex API',
         description:
@@ -119,7 +125,7 @@ export const projects = [
     },
     {
         id: 4,
-        img: '/public/calculadora-react.jpg',
+        img: imagem04,
         category: 'React',
         title: 'Calculadora com React',
         description:
