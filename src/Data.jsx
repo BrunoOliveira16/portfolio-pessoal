@@ -1,13 +1,6 @@
 /* ======= Icones Tecnologias =======*/
 import { SiJavascript, SiTypescript, SiReact, SiAngular, SiBootstrap, SiStyledcomponents, SiNodedotjs, SiJquery } from 'react-icons/si';
 
-
-/* ======= Imagens Projetos =======*/
-import Project1 from './assets/imagem-01.jpg';
-import Project2 from './assets/imagem-01.jpg';
-import Project3 from './assets/imagem-01.jpg';
-import Project4 from './assets/imagem-01.jpg';
-
 export const links = [
     {
         name: 'Home',
@@ -96,35 +89,43 @@ export const skills = [
 export const projects = [
     {
         id: 1,
-        img: Project1,
+        img: '/public/space-tourism.jpg',
         category: 'React',
-        title: 'Projeto 01',
+        title: 'SPA Turismo Espacial',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.'
+            'Este é um website de turismo espacial em React! Explore destinos incríveis, conheça a tripulação e as tecnologias usadas. Tudo com SPA, React-router e dados JSON.',
+        codigo: 'https://github.com/BrunoOliveira16/space-tourism-website',
+        demo: 'https://turismo-espacial.netlify.app/'
     },
     {
         id: 2,
-        img: Project2,
-        category: 'React',
-        title: 'Projeto 02',
+        img: '/public/hbo-clone.jpg',
+        category: 'HTML/CSS',
+        title: 'Clone HBO Max',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.'
+            'Um clone do site da HBO Max feito com HTML, CSS e JavaScript. Um projeto para praticar as habilidades de frontend e UI design, assim como tornar responsivo o site',
+        codigo: 'https://github.com/BrunoOliveira16/Clone-HBO-Max',
+        demo: 'https://hbo-max-clone.netlify.app/'
     },
     {
         id: 3,
-        img: Project3,
-        category: 'Angular',
-        title: 'Projeto 03',
+        img: '/public/poke-api.jpg',
+        category: 'JavaScript',
+        title: 'Pokedex API',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.'
+            'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica e responsiva. O site também usa conceitos de API, fetch e async/await consumindo dados da PokéAPI.',
+        codigo: 'https://github.com/BrunoOliveira16/Pokedex-Api',
+        demo: 'https://pokedex-api-javascript.netlify.app/'
     },
     {
         id: 4,
-        img: Project4,
-        category: 'JavaScript',
-        title: 'Projeto 04',
+        img: '/public/calculadora-react.jpg',
+        category: 'React',
+        title: 'Calculadora com React',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta tempore velit tempora, quo aliquam totam ducimus libero a ea inventore dolores.'
+            'Um site que usa React para criar uma calculadora simples e funcional. O site usa componentes, estados e hooks para gerenciar a lógica da calculadora.',
+        codigo: 'https://github.com/BrunoOliveira16/calculadora-react',
+        demo: 'https://calculadora-projeto-react.netlify.app/'
     }
 ]
 

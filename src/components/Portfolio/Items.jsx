@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { AiOutlineFundProjectionScreen, AiOutlineGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 
@@ -6,7 +7,7 @@ const Items = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((projectItem) => {
-          const { id, img, category, title, description } = projectItem;
+          const { id, img, category, title, description, codigo, demo } = projectItem;
           
           return(
             <motion.div 
@@ -27,11 +28,11 @@ const Items = ({ projectItems }) => {
               <p className="portfolio__description">{description}</p>
 
               <div className="portfolio__link--wrapper">
-                <a href="" className="btn-icon btn text-cs">
+                <a href={codigo} className="btn-icon btn text-cs" target="_blank">
                   <AiOutlineGithub />
                    Código
                 </a>
-                <a href="" className="btn-icon btn text-cs">
+                <a href={demo} className="btn-icon btn text-cs" target="_blank">
                   <AiOutlineFundProjectionScreen />
                    Live Demo
                 </a>
