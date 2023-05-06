@@ -19,7 +19,7 @@
 <br>
 
 ## 📌 Resumo do Projeto
-O projeto trata-se de uma página de portfolio profissional.
+Neste site, eu apresento o meu portfólio de design e desenvolvimento web, criado com HTML, CSS, JavaScript e React. Eu mostro os meus projetos em diferentes áreas, como web design, gráfico e ilustração. O site é responsivo e tem animações que tornam a navegação mais dinâmica e agradável.
 
 <br>
 
@@ -37,15 +37,28 @@ npm start
 
 ## ⭐ Features
 
-🚧 seção em construção 🚧
+- Um design minimalista e elegante.
+
+- Um menu de navegação que permite acessar as diferentes seções do site.
+
+- Uma seção de home que apresenta o autor e seus serviços de forma criativa e profissional.
+
+- Uma seção de projetos que mostra os trabalhos realizados em diferentes áreas, como web design, gráfico e ilustração.
+
+- Uma seção de contato que oferece diferentes formas de entrar em contato, como email, telefone e redes sociais.
 
 <br>
 
 ## 📂 Temas abordados
-- Use State e Use Effect
-- Layout Responsivo
-- React scroll
-- axios
+- HTML
+- CSS
+- JavaScript
+- React
+- Hooks
+- Responsividade
+- Animações
+- Font Awesome
+- Netlify
 
 <br>
 
