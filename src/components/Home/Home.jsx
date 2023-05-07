@@ -6,7 +6,7 @@ import shapetwo from '../../assets/icon-js.png';
 import shapethree from '../../assets/icon-node.png';
 
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
-/*import CV from '../../assets'*/
+import CV from '../../assets/Curriculo Bruno Oliveira.pdf'
 
 const Home = () => {
   return (
@@ -30,7 +30,7 @@ const Home = () => {
 
                     {/*<p className="home__data home__data-one">
                         <span className="text-lg">
-                            12 <b>+</b>
+                            2 <b>+</b>
                         </span>
 
                         <span className="text-sm text-cs">
@@ -39,7 +39,7 @@ const Home = () => {
                     </p>
 
                     <p className="home__data home__data-two">
-                        <span className="text-lg">330</span>
+                        <span className="text-lg">30</span>
 
                         <span className="text-sm text-cs">
                             Completed <span>Projects</span>
@@ -70,8 +70,8 @@ const Home = () => {
                 </div>
 
                 <div className="home__btns">
-                    {/*<a download="" href={CV} className="btn text-cs">Dowload CV</a>*/}
-                    <a href="" className="btn text-cs">Dowload CV</a>
+                    <a download="" href={CV} className="btn text-cs">Dowload CV</a>
+                    {/*<a href="" className="btn text-cs">Dowload CV</a>*/}
                     <a href="#skills" className="hero__link text-cs">Minhas Skills</a>
                 </div>
             </div>
