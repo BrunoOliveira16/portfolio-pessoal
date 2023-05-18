@@ -7,15 +7,15 @@ const Footer = () => {
     <footer className="footer">
         <div className="footer__container container grid">
             <div className="footer__socials">
-                <a href="" className="footer__social-link">
+                <a href="https://www.linkedin.com/in/bruno-oliveira1608/" className="footer__social-link" target="_blank">
                     <FaLinkedin />
                 </a>
 
-                <a href="" className="footer__social-link">
+                <a href="https://github.com/BrunoOliveira16" className="footer__social-link" target="_blank">
                     <FaGithub />
                 </a>
 
-                <a href="" className="footer__social-link">
+                <a href="https://www.instagram.com/bruno.oliveira.16/" className="footer__social-link" target="_blank">
                     <FaInstagram />
                 </a>
             </div>

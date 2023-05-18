@@ -56,15 +56,15 @@ const Home = () => {
                 </p>
 
                 <div className="home__socials">
-                    <a href="" className="home__social-link">
+                    <a href="https://www.linkedin.com/in/bruno-oliveira1608/" className="home__social-link" target="_blank">
                         <FaLinkedin />
                     </a>
 
-                    <a href="" className="home__social-link">
+                    <a href="https://github.com/BrunoOliveira16" className="home__social-link" target="_blank">
                         <FaGithub />
                     </a>
 
-                    <a href="" className="home__social-link">
+                    <a href="https://www.instagram.com/bruno.oliveira.16/" className="home__social-link" target="_blank">
                         <FaInstagram />
                     </a>
                 </div>
