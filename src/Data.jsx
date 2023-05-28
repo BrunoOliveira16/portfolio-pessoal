@@ -140,7 +140,7 @@ export const projects = [
         category: 'JavaScript',
         title: 'Calculadora de Média',
         description:
-            'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica, de uma calculadora de médias de notas de alunos, onde o usuário inseri a média minima para o calculo.',
+            'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica, de uma calculadora de médias, onde o usuário informa a média minima para o calculo.',
         codigo: 'https://github.com/BrunoOliveira16/calculadora-de-medias',
         demo: 'https://calculadora-de-medias-nine.vercel.app/'
     }
