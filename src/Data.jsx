@@ -6,6 +6,7 @@ import imagem01 from '/public/space-tourism.jpg'
 import imagem02 from '/public/hbo-clone.jpg'
 import imagem03 from '/public/poke-api.jpg'
 import imagem04 from '/public/calculadora-react.jpg'
+import imagem05 from '/public/calculadora-media.jpg'
 
 export const links = [
     {
@@ -132,6 +133,16 @@ export const projects = [
             'Um site que usa React para criar uma calculadora simples e funcional. O site usa componentes, estados e hooks para gerenciar a lógica da calculadora.',
         codigo: 'https://github.com/BrunoOliveira16/calculadora-react',
         demo: 'https://calculadora-projeto-react.netlify.app/'
+    },
+    {
+        id: 5,
+        img: imagem05,
+        category: 'JavaScript',
+        title: 'Calculadora de Média',
+        description:
+            'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica, de uma calculadora de médias de notas de alunos, onde o usuário inseri a média minima para o calculo.',
+        codigo: 'https://github.com/BrunoOliveira16/calculadora-de-medias',
+        demo: 'https://calculadora-de-medias-nine.vercel.app/'
     }
 ]
 
