@@ -7,6 +7,7 @@ import imagem02 from '/public/hbo-clone.jpg'
 import imagem03 from '/public/poke-api.jpg'
 import imagem04 from '/public/calculadora-react.jpg'
 import imagem05 from '/public/calculadora-media.jpg'
+import imagem06 from '/public/agenda-contatos.jpg'
 
 export const links = [
     {
@@ -143,6 +144,16 @@ export const projects = [
             'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica, de uma calculadora de médias, onde o usuário informa a média minima para o calculo.',
         codigo: 'https://github.com/BrunoOliveira16/calculadora-de-medias',
         demo: 'https://calculadora-de-medias-nine.vercel.app/'
+    },
+    {
+        id: 6,
+        img: imagem06,
+        category: 'JavaScript',
+        title: 'Agenda de contatos',
+        description:
+            'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica, de uma agenda de contatos, onde o usuário pode inserir URL da foto, nome e telefone.',
+        codigo: 'https://github.com/BrunoOliveira16/agenda-de-contatos',
+        demo: 'https://agenda-de-contatos-lime.vercel.app/'
     }
 ]
 
