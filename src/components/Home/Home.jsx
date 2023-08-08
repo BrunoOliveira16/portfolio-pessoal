@@ -76,7 +76,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="section__deco deco__left"></div>
+            {/* <div className="section__deco deco__left"></div> */}
         </div>
     </section>
   );

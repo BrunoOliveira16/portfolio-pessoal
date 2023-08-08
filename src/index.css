@@ -209,7 +209,13 @@
         right: -5%;
     }
 
+    .contact__content {
+        width: 100%;
+    }
+
     .contact__container {
+        width: 100%;
+        padding: 0 1rem;
         grid-template-columns: 1fr;
     }
 
@@ -223,6 +229,10 @@
 
     .portfolio__list--item::before {
         bottom: -0.5rem;
+    }
+
+    .footer {
+        text-align: center;
     }
 }
 

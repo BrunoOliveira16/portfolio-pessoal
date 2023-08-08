@@ -2,12 +2,13 @@
 import { SiJavascript, SiTypescript, SiReact, SiAngular, SiBootstrap, SiStyledcomponents, SiNodedotjs, SiJquery } from 'react-icons/si';
 
 /*======== Import das imagens =======*/
-import imagem01 from '/public/space-tourism.jpg'
-import imagem02 from '/public/hbo-clone.jpg'
+import imagem01 from '/public/game-master.jpg'
+import imagem02 from '/public/space-tourism.jpg'
 import imagem03 from '/public/poke-api.jpg'
-import imagem04 from '/public/calculadora-react.jpg'
-import imagem05 from '/public/calculadora-media.jpg'
-import imagem06 from '/public/agenda-contatos.jpg'
+import imagem04 from '/public/hbo-clone.jpg'
+import imagem05 from '/public/calculadora-react.jpg'
+import imagem06 from '/public/disney+.jpg'
+
 
 export const links = [
     {
@@ -99,21 +100,21 @@ export const projects = [
         id: 1,
         img: imagem01,
         category: 'React',
+        title: 'App Game Master',
+        description:
+            'Este é um website que consome uma API de jogos, possui integração com Firebase para autenticação de usuário e armazenamento de dados com o firestore, construção com react e sass',
+        codigo: 'https://github.com/BrunoOliveira16/game-master',
+        demo: 'https://game-master-fawn.vercel.app/'
+    },
+    {
+        id: 2,
+        img: imagem02,
+        category: 'React',
         title: 'SPA Turismo Espacial',
         description:
             'Este é um website de turismo espacial em React! Explore destinos incríveis, conheça a tripulação e as tecnologias usadas. Tudo com SPA, React-router e dados JSON.',
         codigo: 'https://github.com/BrunoOliveira16/space-tourism-website',
         demo: 'https://turismo-espacial.netlify.app/'
-    },
-    {
-        id: 2,
-        img: imagem02,
-        category: 'HTML/CSS',
-        title: 'Clone HBO Max',
-        description:
-            'Um clone do site da HBO Max feito com HTML, CSS e JavaScript. Um projeto para praticar as habilidades de frontend e UI design, assim como tornar responsivo o site',
-        codigo: 'https://github.com/BrunoOliveira16/Clone-HBO-Max',
-        demo: 'https://hbo-max-clone.netlify.app/'
     },
     {
         id: 3,
@@ -128,6 +129,16 @@ export const projects = [
     {
         id: 4,
         img: imagem04,
+        category: 'HTML/CSS',
+        title: 'Clone HBO Max',
+        description:
+            'Clone do site da HBO Max feito com HTML, CSS e JavaScript. Um projeto para praticar as habilidades de frontend e UI design, assim como designer responsivo',
+        codigo: 'https://github.com/BrunoOliveira16/Clone-HBO-Max',
+        demo: 'https://hbo-max-clone.netlify.app/'
+    },
+    {
+        id: 5,
+        img: imagem05,
         category: 'React',
         title: 'Calculadora com React',
         description:
@@ -136,25 +147,15 @@ export const projects = [
         demo: 'https://calculadora-projeto-react.netlify.app/'
     },
     {
-        id: 5,
-        img: imagem05,
-        category: 'JavaScript',
-        title: 'Calculadora de Média',
-        description:
-            'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica, de uma calculadora de médias, onde o usuário informa a média minima para o calculo.',
-        codigo: 'https://github.com/BrunoOliveira16/calculadora-de-medias',
-        demo: 'https://calculadora-de-medias-nine.vercel.app/'
-    },
-    {
         id: 6,
         img: imagem06,
         category: 'JavaScript',
-        title: 'Agenda de contatos',
+        title: 'Clone Disney+',
         description:
-            'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica, de uma agenda de contatos, onde o usuário pode inserir URL da foto, nome e telefone.',
-        codigo: 'https://github.com/BrunoOliveira16/agenda-de-contatos',
-        demo: 'https://agenda-de-contatos-lime.vercel.app/'
-    }
+            'Este é um site clone do disney+ que utiliza HTML, Sass, JavaScript e gulp para gerenciamento de desenvolvimento, minificação de código e build do projeto.',
+        codigo: 'https://github.com/BrunoOliveira16/disney-clone',
+        demo: 'https://disney-clone-six-eta.vercel.app/'
+    },
 ]
 
 export const cv = [
